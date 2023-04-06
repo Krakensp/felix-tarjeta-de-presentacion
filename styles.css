@@ -1,0 +1,51 @@
+:root {
+  --main-color: rgb(52, 51, 51);
+}
+
+* {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: var(--main-color);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+}
+
+.presentation-card {
+  height: vh;
+}
+
+.logo {
+  height: 250px;
+}
+
+.card-header {
+  margin: 50px 0;
+}
+
+.card-header ul {
+  list-style-type: none;
+}
+
+li > b {
+  color: silver;
+}
+
+.card-body {
+  margin: 10px;
+}
+
+.card-footer {
+  width: 100%;
+  position: absolute;
+  bottom: -1;
+}
+
+.footer-content {
+  height: 100px;
+  background-color: red;
+}
